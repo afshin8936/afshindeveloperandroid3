@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/standard_margine"
+    android:orientation="vertical"
+    android:baselineAligned="false">
+    <ImageView
+        android:id="@+id/item_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/standard_margine"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        tools:src="@drawable/pic1"
+        android:contentDescription=""
+        tools:ignore="ContentDescription" />
+    <TextView
+        android:id="@+id/new_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/standard_margine"
+        android:layout_marginRight="@dimen/standard_margine"
+        tools:text="عنوان"
+        android:layout_gravity="right"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/larg_font_size"
+        tools:ignore="RtlHardcoded" />
+    <TextView
+        android:id="@+id/news_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/standard_margine"
+        android:layout_marginRight="@dimen/standard_margine"
+        android:layout_marginLeft="@dimen/standard_margine"
+        android:maxLines="2"
+        android:ellipsize="end"
+        tools:text="لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است."
+        android:layout_gravity="right"
+        android:textSize="@dimen/normal_font_size"
+        tools:ignore="RtlHardcoded" />
+    <TextView
+        android:id="@+id/news_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/standard_margine"
+        android:layout_marginRight="@dimen/standard_margine"
+        android:layout_marginLeft="@dimen/standard_margine"
+        tools:text= "حدود 2     ساعت پیش"
+        android:layout_gravity="left"
+        android:textSize="@dimen/small_font_size"
+        tools:ignore="RtlHardcoded" />
+</LinearLayout>

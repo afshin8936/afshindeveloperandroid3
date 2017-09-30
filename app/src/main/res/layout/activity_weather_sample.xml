@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.afshindeveloper.afshindeveloperandroid.view.activity.WeatherSampleActivity">
+     <Button
+         android:id="@+id/btn_sendrequest"
+         android:layout_width="395dp"
+         android:layout_height="wrap_content"
+         android:text="ارسال درخواست"
+         tools:layout_editor_absoluteY="0dp"
+         tools:layout_editor_absoluteX="8dp"
+         android:layout_alignParentBottom="true"/>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical"
+         android:layout_above="@+id/btn_sendrequest"
+         android:gravity="right">
+          <TextView
+              android:id="@+id/txt_weather_name"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" />
+          <TextView
+              android:id="@+id/txt_weather_description"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" />
+          <TextView
+              android:id="@+id/txt_temprutur"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" />
+          <TextView
+              android:id="@+id/txt_humidity"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" />
+          <TextView
+              android:id="@+id/txt_pressure"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" />
+          <TextView
+              android:id="@+id/txt_temp_min"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" />
+          <TextView
+              android:id="@+id/txt_temp_max"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" />
+          <TextView
+              android:id="@+id/txt_wind_speed"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" />
+          <TextView
+              android:id="@+id/txt_wind_degree"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" />
+     </LinearLayout>
+     <ProgressBar
+         android:id="@+id/progressbr"
+         android:layout_width="50dp"
+         android:layout_height="50dp"
+         android:layout_centerHorizontal="true"
+         android:layout_above="@+id/btn_sendrequest"
+         android:visibility="invisible"
+
+         />
+</RelativeLayout>

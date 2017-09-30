@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">افشین داداش نژاد</string>
+    <string name="user_welcome_message">سلام</string>
+    <string name="app_feature_latest_posts">لیست آخرین پست ها</string>
+    <string name="app_feature_user_profile">پروفایل کاربر</string>
+    <string name="app_feature_fashion">فروشگاه لباس</string>
+    <string name="app_feature_music_player">موزیک پلیر</string>
+    <string name="app_feature_video_player">ویدیو پلیر</string>
+    <string name="app_feature_login">ورود به حساب کاربری</string>
+    <string name="app_feature_animations_in_android">انیمیشن در اندروید</string>
+    <string name="animations_alpha">Alpha</string>
+
+    <string name="animations_translate">Translate</string>
+
+    <string name="animations_scale">Scale</string>
+
+    <string name="animations_rotate">Rotate</string>
+
+    <string name="animations_value_animator">Value Animator</string>
+
+    <string name="animations_label_list_of_animations">لیست انیمیشن ها در اندروید:</string>
+
+    <string name="animations_main_activity_toolbar_title">انیمیشن در اندروید</string>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/standard_margine"
+    app:cardElevation="@dimen/standard_card_elevation"
+    app:cardCornerRadius="@dimen/standard_card_radius"
+    >
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_margin="@dimen/standard_margine">
+        <ImageView
+            android:id="@+id/clothing_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:textSize="@dimen/larg_font_size"
+            tools:src="@drawable/pic1_clothes"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="8dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/clothing_image"
+            android:padding="@dimen/standard_margine_x2">
+            <TextView
+                android:id="@+id/clothing_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/standard_margine"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/larg_font_size"
+                tools:text="عنوان لباس"
+
+                />
+            <TextView
+                android:id="@+id/viwe_Count_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/clothing_title"
+                android:textColor="@android:color/white"
+                tools:text="700"
+
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/viwe_Count_text"
+                android:layout_alignBottom="@+id/viwe_Count_text"
+                android:layout_toLeftOf="@+id/viwe_Count_text"
+                android:layout_marginRight="4dp"
+                android:src="@drawable/ic_ic_views_white"
+                />
+
+        </RelativeLayout>
+    </RelativeLayout>
+    </android.support.v7.widget.CardView>

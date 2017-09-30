@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">7Learn</string>
+    <string name="user_welcome_message">Hello World</string>
+    <string name="app_feature_latest_posts">Last Posts</string>
+    <string name="app_feature_user_profile">User Profile</string>
+    <string name="app_feature_fashion">FashionStore</string>
+    <string name="app_feature_music_player">Music Player</string>
+    <string name="app_feature_video_player">Video Player</string>
+    <string name="app_feature_login">Login to account</string>
+    <string name="app_feature_animations_in_android">انیمیشن در اندروید</string>
+    <string name="animations_alpha">Alpha</string>
+
+    <string name="animations_translate">Translate</string>
+
+    <string name="animations_scale">Scale</string>
+
+    <string name="animations_rotate">Rotate</string>
+
+    <string name="animations_value_animator">Value Animator</string>
+
+    <string name="animations_label_list_of_animations">لیست انیمیشن ها در اندروید:</string>
+
+    <string name="animations_main_activity_toolbar_title">انیمیشن در اندروید</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#02432e</color>
+    <color name="colorPrimaryDark">#16640c</color>
+    <color name="colorAccent">#6e4543</color>
+    <color name="white">#ffff</color>
+    <color name="dark_gray">#565656</color>
+    <color name="color_visited_post">@android:color/darker_gray</color>
+    <color name="color_not_visited_post">@android:color/white</color>
+    <color name="color_orang">#caa01f</color>
+    <color name="color_orang_dark">#9c7807</color>
+    <color name="color_blue">#04abbe</color>
+    <color name="color_blue_dark">#048fa1</color>
+</resources>

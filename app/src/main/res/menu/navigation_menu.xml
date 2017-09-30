@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item android:id="@+id/navigation_menu_main2activity" android:title="صحفه اصلی" android:icon="@drawable/homepage"/>
+<item android:id="@+id/navigation_menu_profile" android:title="پروفایل" android:icon="@drawable/profile"/>
+    <item android:id="@+id/navigation_menu_store" android:title="فروشگاه" android:icon="@drawable/shopping_cart"/>
+    <group>
+        <item android:id="@+id/contact_us" android:title="ارتباط با ما" android:icon="@drawable/about" />
+        <item android:id="@+id/setting" android:title="تنظیمات" android:icon="@drawable/settings"/>
+        <item android:id="@+id/shotdown" android:title="خروج" android:icon="@drawable/shutdown"/>
+
+    </group>
+</menu>
